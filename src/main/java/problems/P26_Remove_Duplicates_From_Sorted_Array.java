@@ -19,8 +19,11 @@ public class P26_Remove_Duplicates_From_Sorted_Array {
                 nums[k] = nums[i];
             }
         }
+
         System.out.println(Arrays.toString(nums));
         return k + 1;
+
     }
 }
+
 
