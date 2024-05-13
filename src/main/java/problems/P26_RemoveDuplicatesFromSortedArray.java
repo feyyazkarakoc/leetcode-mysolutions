@@ -2,7 +2,7 @@ package problems;
 
 import java.util.Arrays;
 
-public class P26_Remove_Duplicates_From_Sorted_Array {
+public class P26_RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
 
         int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
