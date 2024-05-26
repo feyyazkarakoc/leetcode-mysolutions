@@ -8,7 +8,7 @@ public class P17_LetterCombinationsOfPhoneNumber {
 
     public static void main(String[] args) {
 
-        System.out.println(letterCombinations("23"));
+        System.out.println(letterCombinations(""));
 
     }
 
@@ -27,7 +27,7 @@ public class P17_LetterCombinationsOfPhoneNumber {
         numToLet.put(9, "wxyz");
 
         if (digits.isEmpty()){
-            
+            return list;
 
 
         }else if (digits.length() == 1) {
