@@ -117,16 +117,6 @@ public class P17_LetterCombinationsOfPhoneNumber {
     }
 }
 
-/*  for (int j = 2; j < 10; j++) {
-                            if (Integer.valueOf(digits.charAt(1)) == j){
 
-                                for (String d:numToLet.get(digits).split("")){
-                                    list.add(s+d);
-                                }
-
-
-                            }
-
-                        } */
 
 
